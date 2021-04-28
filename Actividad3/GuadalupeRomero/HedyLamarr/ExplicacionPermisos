@@ -1,0 +1,16 @@
+Se manejan tres tipos de permisos de usuarios:
+Permisos de propietario
+Permisos de grupo
+Permisos para otros
+
+Se pueden manejar caracteres, por ejemplo:
+
+-rwx-rw-r--
+el primer guión representa el tipo de archivo. Los siguientes tres caracteres representan los permisos del propietario, los siguientes tres los permisos de grupo y los tres finales indican los permisos de otros.
+
+Se pueden utilizar números acomodados en tres dígitos:
+Primer dígito: Permisos de propietario
+Segundo dígito: Permisos de grupo
+Tercer número: Permisos para otros
+
+De esta manera, si nos encontramos con la combinación 000, indica que no existe ningún permiso para ningún usuario, mientras que si nos encontramos con la combinación 777, todos los usuarios pueden leer, escribir y ejecutar el archivo.

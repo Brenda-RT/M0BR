@@ -1,0 +1,9 @@
+En Linux existen tres tipos de permisos de archivos:
+1.- Lectura: Permite a un usuario ver su contenido, se representa con la letra r.
+2.- Escritura: Permite modificar un archivo, se representa con la letra w
+3.- Ejecución: Si existe algo que ejecutar, se puede hacer, se representa con la letra x.
+
+Se pueden modificar los permisos con números, siguiendo las combinaciones en binario de las letras rwx, que dan un números del 0 al 7. 
+
+
+
